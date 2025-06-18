@@ -248,3 +248,5 @@ echo $RANDOM
 echo $RANDOM
 echo $RANDOM
 echo $RANDOM
+./bingo.sh
+./bingo.sh
