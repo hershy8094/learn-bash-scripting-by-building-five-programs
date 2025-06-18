@@ -255,3 +255,4 @@ I=0
 echo I
 echo $I
 (( I++ ))
+echo $I
