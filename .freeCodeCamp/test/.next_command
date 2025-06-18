@@ -254,3 +254,4 @@ echo $RANDOM
 I=0
 echo I
 echo $I
+(( I++ ))
