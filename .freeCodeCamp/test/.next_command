@@ -195,3 +195,4 @@ help if
 ls --color=auto
 pwd
 help
+help [[ expression ]]
