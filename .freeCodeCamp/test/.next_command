@@ -212,3 +212,4 @@ help test
 [[ -a countdownh ]]
 [[ -a bad_file.text ]]
 [[ -a bad_file.txt ]]
+[[ -x countdown.sh ]]
