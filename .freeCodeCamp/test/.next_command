@@ -3,3 +3,5 @@
 ./questionnaire.sh
 ./questionnaire.sh
 touch countdown.sh
+chmod +x contdown.sh
+chmod +x countdown.sh
