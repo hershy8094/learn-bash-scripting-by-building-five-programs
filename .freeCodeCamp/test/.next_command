@@ -7,3 +7,4 @@ chmod +x contdown.sh
 chmod +x countdown.sh
 which bash
 ./countdown.sh
+./countdown.sh arg1 arg2 arg3
