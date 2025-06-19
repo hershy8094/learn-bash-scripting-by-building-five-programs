@@ -71,3 +71,4 @@ echo $VWR
 echo $VAR
 [[ $VAR == "hello world" ]]
 [[ $VAR =~ \?$ ]]
+[[ test? =~ \?$ ]]
