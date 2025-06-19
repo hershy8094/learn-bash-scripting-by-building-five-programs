@@ -428,3 +428,8 @@ help test
 ./bingo.sh
 touch fortune.sh
 chmod +x fortune.sh
+ssh-keygen -t ed25519 -C "hersheyschwartz1@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+git config --global user.name "Hershey Schwartz (VM)"
+git config --global user.email "hersheyschwartz1@gmail.com"
+ssh -T git@github.com
