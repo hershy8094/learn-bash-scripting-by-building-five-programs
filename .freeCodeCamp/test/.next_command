@@ -421,3 +421,5 @@ bingo.sh
 HELP LET
 help let
 help test
+./bingo.sh
+./bingo.sh
