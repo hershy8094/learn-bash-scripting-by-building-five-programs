@@ -52,3 +52,4 @@ git push
 git push --set-upstream origin main
 git pull
 git push
+./fortune.sh
