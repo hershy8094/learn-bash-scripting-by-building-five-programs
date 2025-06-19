@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 clear
 ./five.sh
 help
@@ -11,6 +12,17 @@ type psql
 type ./five.sh
 exit
 exit
+=======
+./fortune.sh
+chmod +x fortune.sh
+./fortune.sh
+HELP
+help
+help functions
+man function
+help function
+./fortune.sh
+>>>>>>> 32082cda2116040a2cfa2ebac6a88e8c9ed361db
 builtin unset VSCODE_INJECTION
 [ -z "$VSCODE_SHELL_INTEGRATION" ]
 [ -n "${VSCODE_ENV_REPLACE:-}" ]
@@ -45,6 +57,44 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 [[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
+<<<<<<< HEAD
 git pull origin main
 git push origin main
 git pull
+=======
+git pull
+git pull origin main
+git config pull.rebase false
+git pull
+git pull origin main
+git pull.rebase false
+git pull origin main --allow-unrelated-histories --no-rebase
+git push
+git push --set-upstream origin main
+git pull
+git push
+./fortune.sh
+help
+help until
+./fortune.sh
+help [[
+[[hello == hello]] echo $?
+__vsc_prompt_cmd_original
+[[ hello == hello ]]
+[[ hello == world ]]
+[[ hello =~ el ]]
+__vsc_prompt_cmd_original
+[[ "hello world" =~ "lo wor" ]]
+[[ "hello world" =~ ^h ]]
+[[ "hello world" =~ ^h.+d$ ]]
+VAR="hello world"
+echo $VWR
+echo $VAR
+[[ $VAR == "hello world" ]]
+[[ $VAR =~ \?$ ]]
+[[ test? =~ \?$ ]]
+./fortune.sh
+./fortune.sh
+./fortune.sh
+./fortune.sh
+>>>>>>> 32082cda2116040a2cfa2ebac6a88e8c9ed361db
