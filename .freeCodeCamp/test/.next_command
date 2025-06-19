@@ -1,3 +1,5 @@
 ./fortune.sh
 chmod +x fortune.sh
 ./fortune.sh
+HELP
+help
