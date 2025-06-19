@@ -8,7 +8,6 @@ RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again late
 
 N=$(( $RANDOM % 6 ))
 
-echo ${RESPONSES[$N]}
 
 GET_FORTUNE () {
   if [[ ! $1 ]]
@@ -26,3 +25,5 @@ until [[ $QUESTION =~ \?$ ]]
 do
   GET_FORTUNE again
 done
+
+echo -e "\n${RESPONSES[$N]}"
