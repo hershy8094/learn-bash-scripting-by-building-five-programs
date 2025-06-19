@@ -3,3 +3,6 @@ chmod +x fortune.sh
 ./fortune.sh
 HELP
 help
+help functions
+man function
+help function
