@@ -452,3 +452,4 @@ git push
 __vsc_prompt_cmd_original
 ./fortune.sh
 ARR=("a" "b" "c")
+echo ${ARR[1]}
