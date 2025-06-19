@@ -57,3 +57,6 @@ help
 help until
 ./fortune.sh
 help [[
+[[hello == hello]] echo $?
+__vsc_prompt_cmd_original
+[[ hello == hello ]]
