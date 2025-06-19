@@ -10,3 +10,4 @@ type bash
 type psql
 type ./five.sh
 exit
+exit
