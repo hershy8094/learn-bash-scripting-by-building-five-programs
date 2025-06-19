@@ -98,3 +98,4 @@ echo $VAR
 ./fortune.sh
 ./fortune.sh
 >>>>>>> 32082cda2116040a2cfa2ebac6a88e8c9ed361db
+git fetch
