@@ -1,0 +1,2 @@
+./fortune.sh
+chmod +x fortune.sh
